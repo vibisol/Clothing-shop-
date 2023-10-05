@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+.header .choice_sex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    
+   
+}
+
+.header .man,
+.header .woman{
+    font-weight: bold;
+    
+   list-style-type: none;
+   font-family: Poppins;
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   letter-spacing: 0.22px;
+}
+.header .man{
+    color: aliceblue;
+}
+
+.woman {
+    height: 100vh; 
+    background: url('https://s1.hostingkartinok.com/uploads/images/2023/09/abf9036821240c7fea7e8de8ea55369c.png') no-repeat; 
+    background-size: cover; 
+}
+
+.man, .woman {
+    width: 50%;
+}
+
+.man {
+    height: 100vh; 
+    background: url('https://s1.hostingkartinok.com/uploads/images/2023/09/b194db7df6ae7f006d5055bbedf4c959.png') no-repeat; 
+    background-size: cover; 
+}
+
+
+.text_man , .text_woman{
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+}
+
+.main_choise{
+    flex-direction: column;
+    
+}
+
+
+.main_choise_man , .main_choise_woman{
+    display: none; 
+    justify-content:space-between; 
+    padding:1% 2%;
+    font-family: Poppins;
+font-size: 20px;
+color: #eee;
+background-color: #000;
+align-items: center;
+  
+}
+
+.search_stuff{
+    width: 15%;
+}
+
+.search_stuff #searchInputMan, #searchInputWoman{
+    
+    border-radius: 5px;
+height: 30px;
+border: none;
+width: 100%;
+
+}
+
+#searchInputMan,#searchInputWoman::placeholder{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.active{
+    display: flex;
+}
+
+.man_stuff,
+.woman_stuff{
+display: flex;
+gap: 20px;
+    flex-wrap: wrap;
+    padding-left: 5.5%;
+    padding-top: 1%;
+}
+
+
+
+
+.mainModel {
+    display: flex;
+    flex-direction: column;
+    
+  
+    width: 30.33%;
+  }
+  
+  .mainModel .modelImages img {
+    width: 100%;
+    height: auto;
+    flex: 1;
+  }
+
+  .mainModel div{
+    max-width: 100%;
+    position: relative;
+  }
+
+.mainModelText_1{
+    color: #000;
+font-family: Poppins;
+font-size: 19px;
+font-style: normal;
+font-weight: 500;
+
+letter-spacing: -1.28px;
+  }
+
+.mainModelText_2{
+    color: #7F7F7F;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: -0.96px;
+display: flex;
+justify-content: space-between;
+  }
+
+.mainModelText_2 button{
+
+    border: none;
+    background: none;
+    bottom: 5px;
+}
+
+.arrow {
+    font-size: 17px;
+    color: #797979; 
+    margin-top: -5%;
+
+}    
+
+.imgNone.active {
+    display: block; 
+  }
+
+
+  .Basket_Items{
+    display: flex;
+    gap: 30%;
+    width: 30%;
+}
+
+.bascekt_zero{
+    color: black;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.button_backToStuff{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: white;
+    text-decoration:none ;
+    padding: 1% 3%;
+    background: black;
+}
+  
+  
+.Basket_img .imgNone{
+    width: 300px;
+}
+
+.product{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product .Basket_Items{
+    padding-left: 1%;
+}
+
+
+
+.Basket_block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.Basket_count_stuff{
+    display: flex;
+    gap: 5px;
+}
+
+.Basket_buton_plus,
+.Basket_buton_minus{
+    padding: 0px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.goods_purchase{
+    display: flex;
+    position: fixed;
+    right: 20px;
+    width: 35%;
+
+}
+
+.order{
+    
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    gap: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    padding: 2%;
+}
+
+.text_order{
+    font-weight: bold;
+    
+    list-style-type: none;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.22px;
+ }
+.order_phone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order_phone_input{
+    width: 50%;
+    padding: 1% 0px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+}
+
+.order_phone_input:hover{
+    border: 1px solid #aaa;
+}
+
+.order input[type="phone"]{
+   text-align: center;
+}
+ .order_counter{
+   
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+ .order .button_order_make {
+    text-align: center;
+    
+ }
+
+.order .button_order{
+    width: 100%;
+    background: black;
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 2% 0px;
+    font-family: Poppins;
+    font-size: 15px;
+
+}
+
+
+
+.footer{
+    background: #000;
+    margin-top: 20px;
+    width: 100%;
+    display: none;
+    
+ 
+  
+  }
+  
+  .footer_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 60px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: Poppins;
+    font-size: 26.04px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.721px;
+  
+  }
+  
+  .footer_solcial{
+    display: flex;
+    gap: 30px;
+  }
+    

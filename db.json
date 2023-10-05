@@ -1,0 +1,148 @@
+{
+  "menu": [
+    {
+      "img": "img/model1.jpg",
+      "title": "Hoodies & Sweetshirt",
+      "check": "Explore Now!",
+      "arrow": "&rarr;",
+      "img2": "img/swit2.png",
+      "img3": "img/swit3.png"
+    },
+    {
+      "img": "img/model 2.jpg",
+      "title": "Coats & Parkas",
+      "check": "Explore Now!",
+      "arrow": "&rarr;",
+      "img2": "img/parks2.jpeg",
+      "img3": "img/parks3.png"
+    },
+    {
+      "img": "img/model3.jpg",
+      "title": "Tees & T-Shirt",
+      "check": "Explore Now!",
+      "arrow": "&rarr;",
+      "img2": "img/tshirt2.png",
+      "img3": "img/tshirt3.png"
+    }
+  ],
+  "requests": [
+    
+  ],
+  "sessions": [],
+  "logout": [],
+  "man_card": [
+    {
+      "img": "img/mancardtshirt1.png",
+      "title": "T-Shirt Nike",
+      "check": "100$",
+      "arrow": "Buy",
+      "img2": "img/mancardtshirt1_1.png",
+      "img3": "img/mancardtshirt1_2.png",
+      "id": "T-Shirt"
+    },
+    {
+      "img": "img/mancardtshirt2.png",
+      "title": "T-Shirt Adidas",
+      "check": "80$",
+      "arrow": "Buy",
+      "img2": "img/mancardtshirt2_1.png",
+      "img3": "img/mancardtshirt2_2.png",
+      "id": "T-Shirt"
+    },
+    {
+      "img": "img/mancardJacket1.png",
+      "title": "Jacket Armani",
+      "check": "200$",
+      "arrow": "Buy",
+      "img2": "img/mancardJacket1_1.png",
+      "img3": "img/mancardJacket1_2.png",
+      "id": "Jacket"
+    },
+    {
+      "img": "img/mancardjacket2.png",
+      "title": "Jacket Polo",
+      "check": "250$",
+      "arrow": "Buy",
+      "img2": "img/mancardJacket2_1.png",
+      "img3": "img/mancardJacket2_1.png",
+      "id": "Jacket"
+    },
+    {
+      "img": "img/mancardPans1.png",
+      "title": "Pants Calvine",
+      "check": "180$",
+      "arrow": "Buy",
+      "img2": "img/mancardPans1_1.png",
+      "img3": "img/mancardPans1_2.png",
+      "id": "Pants"
+    },
+    {
+      "img": "img/mancardPans2.png",
+      "title": "Pants Lee",
+      "check": "70$",
+      "arrow": "Buy",
+      "img2": "img/mancardPans2_1.png",
+      "img3": "img/mancardPans2_2.png",
+      "id": "Pants"
+    }
+  ],
+  "wooman_card": [
+    {
+      "img": "img/womancardtshirt1.png",
+      "title": "T-Shirt Polo",
+      "check": "100$",
+      "arrow": "Buy",
+      "img2": "img/womancardtshirt1_1.png",
+      "img3": "img/womancardtshirt1_2.png",
+      "id": "T-Shirt"
+    },
+    {
+      "img": "img/womancardthirt2.png",
+      "title": "T-Shirt Karl",
+      "check": "110$",
+      "arrow": "Buy",
+      "img2": "img/womacardtshirt2_1.png",
+      "img3": "img/womancardtshirt2_2.png",
+      "id": "T-Shirt"
+    },
+    {
+      "img": "img/womancardJacket1.png",
+      "title": "Jacket Gucci",
+      "check": "400$",
+      "arrow": "Buy",
+      "img2": "img/womancardJacket1_1.png",
+      "img3": "img/womancardJacket1_2.png",
+      "id": "Jacket"
+    },
+    {
+      "img": "img/womancardJacket2.png",
+      "title": "Jacket Uniqlo",
+      "check": "50$",
+      "arrow": "Buy",
+      "img2": "img/womancardJacket2_1.png",
+      "img3": "img/womancardJacket2_1.png",
+      "id": "Jacket"
+    },
+    {
+      "img": "img/womancardPans1.png",
+      "title": "Pants Tommy",
+      "check": "110$",
+      "arrow": "Buy",
+      "img2": "img/womancardPans1_1.png",
+      "img3": "img/womancardPans1_2.png",
+      "id": "Pants"
+    },
+    {
+      "img": "img/womancardPans2.png",
+      "title": "Pants Bershka",
+      "check": "70$",
+      "arrow": "Buy",
+      "img2": "img/womancardPans2_1.png",
+      "img3": "img/womancardPans2_2.png",
+      "id": "Pants"
+    }
+  ],
+  "order": [
+   
+  ]
+}
